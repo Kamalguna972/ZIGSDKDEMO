@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="NotificationCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="124" id="Qix-nA-RX2" customClass="NotificationCell" customModule="SwiftFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qix-nA-RX2" id="fEu-L7-lGi">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="378" placeholderIntrinsicHeight="85" translatesAutoresizingMaskIntoConstraints="NO" id="lzB-2X-QYe">
+                        <rect key="frame" x="10" y="10" width="381" height="104"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlutoothImg" translatesAutoresizingMaskIntoConstraints="NO" id="7rE-iW-hz9">
+                                <rect key="frame" x="10" y="25" width="35" height="40"/>
+                                <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Ehl-y3-EvQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZE3-fa-9PF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzW-lE-rbJ">
+                                <rect key="frame" x="55" y="14.999999999999998" width="206" height="27.333333333333329"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Allow to access your location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhu-J4-SLA">
+                                <rect key="frame" x="55" y="47.333333333333343" width="206" height="46.666666666666657"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvB-pa-3s0">
+                                <rect key="frame" x="271" y="30" width="100" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="JP1-6V-njP"/>
+                                    <constraint firstAttribute="width" constant="100" id="mcm-sS-aJA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Allow">
+                                    <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="allowAction:" destination="Qix-nA-RX2" eventType="touchUpInside" id="f5V-Ib-Gds"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nhu-J4-SLA" firstAttribute="top" secondItem="ZzW-lE-rbJ" secondAttribute="bottom" constant="5" id="4wx-Dc-fuk"/>
+                            <constraint firstItem="Nhu-J4-SLA" firstAttribute="leading" secondItem="7rE-iW-hz9" secondAttribute="trailing" constant="10" id="7Ib-hk-7Ik"/>
+                            <constraint firstItem="QvB-pa-3s0" firstAttribute="leading" secondItem="ZzW-lE-rbJ" secondAttribute="trailing" constant="10" id="9ri-sd-Yvg"/>
+                            <constraint firstItem="7rE-iW-hz9" firstAttribute="leading" secondItem="lzB-2X-QYe" secondAttribute="leading" constant="10" id="Kgd-3g-Zxx"/>
+                            <constraint firstAttribute="bottom" secondItem="Nhu-J4-SLA" secondAttribute="bottom" constant="10" id="KuX-if-MXH"/>
+                            <constraint firstItem="ZzW-lE-rbJ" firstAttribute="top" secondItem="lzB-2X-QYe" secondAttribute="top" constant="15" id="MlU-2X-enn"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="85" id="Tiw-q1-rxL"/>
+                            <constraint firstItem="QvB-pa-3s0" firstAttribute="leading" secondItem="Nhu-J4-SLA" secondAttribute="trailing" constant="10" id="ZPe-A3-7rZ"/>
+                            <constraint firstItem="ZzW-lE-rbJ" firstAttribute="leading" secondItem="7rE-iW-hz9" secondAttribute="trailing" constant="10" id="as8-So-XXE"/>
+                            <constraint firstItem="QvB-pa-3s0" firstAttribute="centerY" secondItem="7rE-iW-hz9" secondAttribute="centerY" id="pm7-Kf-sQz"/>
+                            <constraint firstItem="7rE-iW-hz9" firstAttribute="top" secondItem="lzB-2X-QYe" secondAttribute="top" constant="25" id="qGE-FG-oaT"/>
+                            <constraint firstAttribute="trailing" secondItem="QvB-pa-3s0" secondAttribute="trailing" constant="10" id="vyK-6F-h3o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                <constraints>
+                    <constraint firstItem="lzB-2X-QYe" firstAttribute="top" secondItem="fEu-L7-lGi" secondAttribute="top" constant="10" id="1aA-MX-9ok"/>
+                    <constraint firstAttribute="trailing" secondItem="lzB-2X-QYe" secondAttribute="trailing" constant="10" id="ES6-2x-F5C"/>
+                    <constraint firstAttribute="bottom" secondItem="lzB-2X-QYe" secondAttribute="bottom" constant="10" id="NCp-Tc-RGb"/>
+                    <constraint firstItem="lzB-2X-QYe" firstAttribute="leading" secondItem="fEu-L7-lGi" secondAttribute="leading" constant="10" id="xU9-rg-poP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="allowBtn" destination="QvB-pa-3s0" id="an4-SO-J0s"/>
+                <outlet property="mainImage" destination="7rE-iW-hz9" id="3Uv-9D-PAl"/>
+                <outlet property="mainView" destination="lzB-2X-QYe" id="Jd4-qx-UPs"/>
+                <outlet property="subTitle" destination="Nhu-J4-SLA" id="o0l-p4-Gkp"/>
+                <outlet property="title" destination="ZzW-lE-rbJ" id="mbC-zV-gpk"/>
+            </connections>
+            <point key="canvasLocation" x="264.8854961832061" y="53.521126760563384"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BlutoothImg" width="170.66667175292969" height="170.66667175292969"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

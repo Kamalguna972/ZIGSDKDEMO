@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.9.1)
+  - CocoaMQTT (2.1.6):
+    - CocoaMQTT/Core (= 2.1.6)
+  - CocoaMQTT/Core (2.1.6):
+    - MqttCocoaAsyncSocket (~> 1.0.8)
+  - MqttCocoaAsyncSocket (1.0.8)
+  - Realm (10.49.1):
+    - Realm/Headers (= 10.49.1)
+  - Realm/Headers (10.49.1)
+  - RealmSwift (10.49.1):
+    - Realm (= 10.49.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CocoaMQTT
+  - RealmSwift (~> 10.38)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaMQTT
+    - MqttCocoaAsyncSocket
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  CocoaMQTT: 1f206228b29318eabdacad0c2e4e88575922c27a
+  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
+  Realm: 1fab4a224fd7a294eca142a0efe8b54546290fbf
+  RealmSwift: 7c3a9c001161eb01b96b171ad965a9c498b962b0
+
+PODFILE CHECKSUM: 5218af50cb20c2ed9d539371f4b1d568d9ae3a82
+
+COCOAPODS: 1.15.2

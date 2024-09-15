@@ -1,0 +1,4 @@
+module SwiftFramework {
+    header "SwiftFramework.h"
+    export *
+}

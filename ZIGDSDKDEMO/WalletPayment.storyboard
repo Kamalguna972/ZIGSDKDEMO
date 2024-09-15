@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reduce Wallet Amount-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ReduceWalletAmount" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ReduceWalletAmount" customModule="SwiftFramework" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iib-xH-v3x">
+                                <rect key="frame" x="15" y="94" width="338" height="25.333333333333329"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1t-Wn-5Cz">
+                                <rect key="frame" x="333.33333333333331" y="124.33333333333331" width="44.666666666666686" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A70-4D-Qfw">
+                                <rect key="frame" x="15" y="124.33333333333331" width="46" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="394" placeholderIntrinsicHeight="60" translatesAutoresizingMaskIntoConstraints="NO" id="qc5-cn-zw8">
+                                <rect key="frame" x="15" y="168.33333333333334" width="363" height="61"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUt-LK-6gL">
+                                        <rect key="frame" x="8" y="10" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="OwV-Eo-NQp"/>
+                                            <constraint firstAttribute="height" constant="25" id="voe-9w-54B"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="checkIn">
+                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZIG Super Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrD-cZ-K7I">
+                                        <rect key="frame" x="38" y="10.666666666666657" width="156" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will be charged from your wallet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxT-87-SL9">
+                                        <rect key="frame" x="8" y="37.666666666666657" width="187" height="18.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cd5-ZJ-Ion">
+                                        <rect key="frame" x="306.33333333333331" y="10.666666666666657" width="55.666666666666686" height="24"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="walletIcon" translatesAutoresizingMaskIntoConstraints="NO" id="4lP-4x-oKy">
+                                        <rect key="frame" x="271.33333333333331" y="7.6666666666666572" width="30" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="EVF-Ug-jmB"/>
+                                            <constraint firstAttribute="height" constant="30" id="wFp-GH-qXG"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="5fg-0N-JUm"/>
+                                    <constraint firstItem="SUt-LK-6gL" firstAttribute="leading" secondItem="qc5-cn-zw8" secondAttribute="leading" constant="8" id="G1r-uX-tnt"/>
+                                    <constraint firstItem="SUt-LK-6gL" firstAttribute="top" secondItem="qc5-cn-zw8" secondAttribute="top" constant="10" id="MGd-VB-czN"/>
+                                    <constraint firstItem="4lP-4x-oKy" firstAttribute="centerY" secondItem="TrD-cZ-K7I" secondAttribute="centerY" id="SnD-Zd-0jo"/>
+                                    <constraint firstItem="bxT-87-SL9" firstAttribute="top" secondItem="TrD-cZ-K7I" secondAttribute="bottom" constant="3" id="X4T-Je-uw4"/>
+                                    <constraint firstItem="bxT-87-SL9" firstAttribute="leading" secondItem="SUt-LK-6gL" secondAttribute="leading" id="d3X-V2-4H1"/>
+                                    <constraint firstItem="TrD-cZ-K7I" firstAttribute="leading" secondItem="SUt-LK-6gL" secondAttribute="trailing" constant="5" id="egz-jT-8XG"/>
+                                    <constraint firstItem="cd5-ZJ-Ion" firstAttribute="leading" secondItem="4lP-4x-oKy" secondAttribute="trailing" constant="5" id="gEm-ND-Iq3"/>
+                                    <constraint firstAttribute="trailing" secondItem="cd5-ZJ-Ion" secondAttribute="trailing" constant="1" id="k5q-Hz-d5B"/>
+                                    <constraint firstItem="TrD-cZ-K7I" firstAttribute="centerY" secondItem="SUt-LK-6gL" secondAttribute="centerY" id="kbO-W2-cuw"/>
+                                    <constraint firstItem="cd5-ZJ-Ion" firstAttribute="centerY" secondItem="TrD-cZ-K7I" secondAttribute="centerY" id="qrg-1i-etf"/>
+                                    <constraint firstAttribute="bottom" secondItem="bxT-87-SL9" secondAttribute="bottom" constant="5" id="y7y-8k-0Ut"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Uh-7E-ZGc">
+                                <rect key="frame" x="15" y="239.33333333333337" width="363" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Pay"/>
+                                <connections>
+                                    <action selector="buyAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="6xs-CY-KPw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xav-ko-57c">
+                                <rect key="frame" x="15" y="285.33333333333331" width="363" height="38"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cancelBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cwj-Hb-TB4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by ZIG SuperWallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kM0-JB-Phc">
+                                <rect key="frame" x="0.0" y="333.33333333333331" width="393" height="19.333333333333314"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z1t-Wn-5Cz" firstAttribute="top" secondItem="iib-xH-v3x" secondAttribute="bottom" constant="5" id="0bW-rT-u54"/>
+                            <constraint firstItem="qc5-cn-zw8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="12l-gg-lxz"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="kM0-JB-Phc" secondAttribute="trailing" id="4cS-nb-DdI"/>
+                            <constraint firstItem="iib-xH-v3x" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="topMargin" constant="35" id="9PI-gD-VcH"/>
+                            <constraint firstItem="kM0-JB-Phc" firstAttribute="top" secondItem="xav-ko-57c" secondAttribute="bottom" constant="10" id="9n4-zf-JG3"/>
+                            <constraint firstItem="qc5-cn-zw8" firstAttribute="top" secondItem="z1t-Wn-5Cz" secondAttribute="bottom" constant="20" id="Dsc-R2-9pI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qc5-cn-zw8" secondAttribute="trailing" constant="15" id="EII-Bm-YKL"/>
+                            <constraint firstItem="A70-4D-Qfw" firstAttribute="centerY" secondItem="z1t-Wn-5Cz" secondAttribute="centerY" id="G4c-eW-dgU"/>
+                            <constraint firstItem="A70-4D-Qfw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="Njw-yG-6HB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="9Uh-7E-ZGc" secondAttribute="trailing" constant="15" id="S51-Ib-xwt"/>
+                            <constraint firstItem="9Uh-7E-ZGc" firstAttribute="top" secondItem="qc5-cn-zw8" secondAttribute="bottom" constant="10" id="WUe-kL-JfS"/>
+                            <constraint firstItem="kM0-JB-Phc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Wx1-zc-lr6"/>
+                            <constraint firstItem="xav-ko-57c" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="XAD-Zq-LXL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="z1t-Wn-5Cz" secondAttribute="trailing" constant="15" id="kAS-HV-CCh"/>
+                            <constraint firstItem="iib-xH-v3x" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="kRl-72-Nk1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xav-ko-57c" secondAttribute="trailing" constant="15" id="nui-2s-cxj"/>
+                            <constraint firstItem="9Uh-7E-ZGc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="sG7-Ig-5Xi"/>
+                            <constraint firstItem="A70-4D-Qfw" firstAttribute="top" secondItem="iib-xH-v3x" secondAttribute="bottom" constant="5" id="u0Q-lw-8L0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iib-xH-v3x" secondAttribute="trailing" constant="40" id="vc5-nF-xj8"/>
+                            <constraint firstItem="xav-ko-57c" firstAttribute="top" secondItem="9Uh-7E-ZGc" secondAttribute="bottom" constant="10" id="xNg-9W-oa8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PaymentTitle" destination="iib-xH-v3x" id="OUS-0m-kis"/>
+                        <outlet property="buyButton" destination="9Uh-7E-ZGc" id="xS4-wm-x0u"/>
+                        <outlet property="cancelButton" destination="xav-ko-57c" id="5ul-LH-dav"/>
+                        <outlet property="totalAmount" destination="z1t-Wn-5Cz" id="v6o-qW-SWw"/>
+                        <outlet property="totalTitlr" destination="A70-4D-Qfw" id="kqh-vM-EU9"/>
+                        <outlet property="walletCheckBox" destination="SUt-LK-6gL" id="bKj-Kf-TvK"/>
+                        <outlet property="walletDescription" destination="bxT-87-SL9" id="oLb-hF-TUZ"/>
+                        <outlet property="walletPaymentView" destination="qc5-cn-zw8" id="iAS-8H-vfb"/>
+                        <outlet property="walletTitle" destination="TrD-cZ-K7I" id="SRu-hh-80N"/>
+                        <outlet property="walletTotalAmount" destination="cd5-ZJ-Ion" id="uch-fW-nL1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.938931297709928" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkIn" width="18" height="18"/>
+        <image name="walletIcon" width="37.666667938232422" height="37.666667938232422"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

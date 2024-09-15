@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SwiftFramework-SwiftFrameworkTests/Pods-SwiftFramework-SwiftFrameworkTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework
+${BUILT_PRODUCTS_DIR}/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

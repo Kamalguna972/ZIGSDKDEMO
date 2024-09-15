@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddWalletCollectionViewCell" id="z9Q-Jj-Khp" customClass="AddWalletCollectionViewCell" customModule="SwiftFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="93" height="43"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="pkq-or-uQa">
+                <rect key="frame" x="0.0" y="0.0" width="93" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8d-i2-pxL">
+                        <rect key="frame" x="5" y="5" width="80" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$20.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTP-Ml-dR6">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="41b-bY-UJP"/>
+                            <constraint firstAttribute="width" constant="80" id="Gtg-JI-NSu"/>
+                            <constraint firstAttribute="trailing" secondItem="hTP-Ml-dR6" secondAttribute="trailing" id="Lav-nf-tAY"/>
+                            <constraint firstAttribute="bottom" secondItem="hTP-Ml-dR6" secondAttribute="bottom" id="WoP-7s-hfM"/>
+                            <constraint firstItem="hTP-Ml-dR6" firstAttribute="leading" secondItem="e8d-i2-pxL" secondAttribute="leading" id="fUM-2e-3h3"/>
+                            <constraint firstItem="hTP-Ml-dR6" firstAttribute="top" secondItem="e8d-i2-pxL" secondAttribute="top" id="jKD-Dj-bGT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="e8d-i2-pxL" secondAttribute="trailing" constant="5" id="1hc-H4-QTS"/>
+                    <constraint firstAttribute="bottom" secondItem="e8d-i2-pxL" secondAttribute="bottom" constant="5" id="6HH-V8-VX0"/>
+                    <constraint firstItem="e8d-i2-pxL" firstAttribute="leading" secondItem="pkq-or-uQa" secondAttribute="leading" constant="5" id="UId-Xk-R44"/>
+                    <constraint firstItem="e8d-i2-pxL" firstAttribute="top" secondItem="pkq-or-uQa" secondAttribute="top" constant="5" id="dX5-3m-lRJ"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="93" height="43"/>
+            <connections>
+                <outlet property="amountView" destination="e8d-i2-pxL" id="PCm-KL-FVw"/>
+                <outlet property="listedAmount" destination="hTP-Ml-dR6" id="yes-7t-zeU"/>
+            </connections>
+            <point key="canvasLocation" x="156.4885496183206" y="28.52112676056338"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
