@@ -34,18 +34,8 @@
 		18E6115B2BBBE77A00638BD5 /* IllegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6115A2BBBE77A00638BD5 /* IllegalViewController.swift */; };
 		38E7C2CB47BF1696B5701DB5 /* Pods_SwiftFramework_SwiftFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E8224D34883BE28257B307 /* Pods_SwiftFramework_SwiftFrameworkTests.framework */; };
 		666909C5F149C2AF89808035 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		F9194A832C745FB70004D631 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A752C745ED70004D631 /* Alamofire.framework */; };
-		F9194A842C745FB70004D631 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A752C745ED70004D631 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F9194A852C745FB80004D631 /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A772C745EDF0004D631 /* CocoaMQTT.framework */; };
-		F9194A862C745FB80004D631 /* CocoaMQTT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A772C745EDF0004D631 /* CocoaMQTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F9194A872C745FBB0004D631 /* MqttCocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A792C745EE80004D631 /* MqttCocoaAsyncSocket.framework */; };
-		F9194A882C745FBB0004D631 /* MqttCocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A792C745EE80004D631 /* MqttCocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F9194A892C745FBD0004D631 /* Pods_SwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C19ECA710D2E92BBBD951 /* Pods_SwiftFramework.framework */; };
 		F9194A8A2C745FBD0004D631 /* Pods_SwiftFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B01C19ECA710D2E92BBBD951 /* Pods_SwiftFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F9194A8B2C745FBE0004D631 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A7B2C745EEF0004D631 /* Realm.framework */; };
-		F9194A8C2C745FBE0004D631 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A7B2C745EEF0004D631 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F9194A8D2C745FBF0004D631 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A7D2C745EF60004D631 /* RealmSwift.framework */; };
-		F9194A8E2C745FBF0004D631 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9194A7D2C745EF60004D631 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F92913B92C5E34BB005A7858 /* PermissionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92913B82C5E34BB005A7858 /* PermissionClass.swift */; };
 		F92914082C60B69D005A7858 /* TollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92914072C60B69D005A7858 /* TollModel.swift */; };
 		F9598CF42C6F2A6100B13D19 /* NeedPermission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9598CF32C6F2A6100B13D19 /* NeedPermission.storyboard */; };
@@ -84,12 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F9194A8C2C745FBE0004D631 /* Realm.framework in Embed Frameworks */,
-				F9194A882C745FBB0004D631 /* MqttCocoaAsyncSocket.framework in Embed Frameworks */,
-				F9194A8E2C745FBF0004D631 /* RealmSwift.framework in Embed Frameworks */,
 				188DBB762BBBE243001819A3 /* Assets.xcassets in Embed Frameworks */,
-				F9194A842C745FB70004D631 /* Alamofire.framework in Embed Frameworks */,
-				F9194A862C745FB80004D631 /* CocoaMQTT.framework in Embed Frameworks */,
 				F9194A8A2C745FBD0004D631 /* Pods_SwiftFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -131,11 +116,6 @@
 		4D09D9E26071E5896ABF71A8 /* Pods-SwiftFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFramework.release.xcconfig"; path = "Target Support Files/Pods-SwiftFramework/Pods-SwiftFramework.release.xcconfig"; sourceTree = "<group>"; };
 		84A14788EA2005196A56BD18 /* Pods-SwiftFramework-SwiftFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFramework-SwiftFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFramework-SwiftFrameworkTests/Pods-SwiftFramework-SwiftFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B01C19ECA710D2E92BBBD951 /* Pods_SwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9194A752C745ED70004D631 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftFramework-gticpkucbirvqkfwshonbmtdigga/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
-		F9194A772C745EDF0004D631 /* CocoaMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaMQTT.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftFramework-gticpkucbirvqkfwshonbmtdigga/Build/Products/Debug-iphoneos/CocoaMQTT/CocoaMQTT.framework"; sourceTree = "<group>"; };
-		F9194A792C745EE80004D631 /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MqttCocoaAsyncSocket.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftFramework-gticpkucbirvqkfwshonbmtdigga/Build/Products/Debug-iphoneos/MqttCocoaAsyncSocket/MqttCocoaAsyncSocket.framework"; sourceTree = "<group>"; };
-		F9194A7B2C745EEF0004D631 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftFramework-gticpkucbirvqkfwshonbmtdigga/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
-		F9194A7D2C745EF60004D631 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftFramework-gticpkucbirvqkfwshonbmtdigga/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		F92913B82C5E34BB005A7858 /* PermissionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionClass.swift; sourceTree = "<group>"; };
 		F92914072C60B69D005A7858 /* TollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollModel.swift; sourceTree = "<group>"; };
 		F9598CF32C6F2A6100B13D19 /* NeedPermission.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NeedPermission.storyboard; sourceTree = "<group>"; };
@@ -165,11 +145,6 @@
 				F9194A892C745FBD0004D631 /* Pods_SwiftFramework.framework in Frameworks */,
 				188DBB712BBBE183001819A3 /* Assets.xcassets in Frameworks */,
 				F9C54A5D2C5BAFF700670D83 /* CocoaMQTT.framework in Frameworks */,
-				F9194A852C745FB80004D631 /* CocoaMQTT.framework in Frameworks */,
-				F9194A8B2C745FBE0004D631 /* Realm.framework in Frameworks */,
-				F9194A872C745FBB0004D631 /* MqttCocoaAsyncSocket.framework in Frameworks */,
-				F9194A8D2C745FBF0004D631 /* RealmSwift.framework in Frameworks */,
-				F9194A832C745FB70004D631 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +164,6 @@
 		1806DEA02BB2D48600E61645 = {
 			isa = PBXGroup;
 			children = (
-				F9194A752C745ED70004D631 /* Alamofire.framework */,
-				F9194A772C745EDF0004D631 /* CocoaMQTT.framework */,
-				F9194A792C745EE80004D631 /* MqttCocoaAsyncSocket.framework */,
-				F9194A7B2C745EEF0004D631 /* Realm.framework */,
-				F9194A7D2C745EF60004D631 /* RealmSwift.framework */,
 				F95D1B1A2C86D63600F4DC9D /* TicketValidation */,
 				187F53FC2BB3DD3A002CF7F9 /* Source */,
 				F929140C2C60B798005A7858 /* UserNotification */,
