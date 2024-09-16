@@ -1,0 +1,18 @@
+
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+ -> NetWorkSDK.podspec -> NetWorkSDK.podspec
+    - ERROR | spec: The specification defined in `NetWorkSDK.podspec` could not be loaded.
+
+[!] No podspec exists at path `NetWorkSDK.podspec`.
+
+[!] NetWorkSDK.podspec did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.
+
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/cocoapods-1.15.2/lib/cocoapods/command/lib/lint.rb:116:in `block in run'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/cocoapods-1.15.2/lib/cocoapods/command/lib/lint.rb:77:in `each'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/cocoapods-1.15.2/lib/cocoapods/command/lib/lint.rb:77:in `run'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/cocoapods-1.15.2/lib/cocoapods/command.rb:52:in `run'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/gems/cocoapods-1.15.2/bin/pod:55:in `<top (required)>'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/bin/pod:25:in `load'
+/opt/homebrew/Cellar/cocoapods/1.15.2/libexec/bin/pod:25:in `<main>'
