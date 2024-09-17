@@ -214,14 +214,6 @@
 		187F53F82BB3DCA1002CF7F9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				180C24C82BB302B600323E93 /* OnboardingViewController.swift */,
-				180C24CB2BB302B600323E93 /* StopViewController.swift */,
-				1880B5B52BB7BD8C00C1C6BF /* SOSViewController.swift */,
-				1880B60B2BB80AC300C1C6BF /* QRViewController.swift */,
-				18E6115A2BBBE77A00638BD5 /* IllegalViewController.swift */,
-				F9598CF52C6F2A6D00B13D19 /* NeedPermissionViewController.swift */,
-				F9C54ABC2C5CE17600670D83 /* PermissionTableViewCell.swift */,
-				F9CC60352C75B69600907F22 /* NotificationCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -245,11 +237,6 @@
 		187F53FB2BB3DD1F002CF7F9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				180C24C72BB302B500323E93 /* Model.swift */,
-				F92914072C60B69D005A7858 /* TollModel.swift */,
-				1883B5EF2BB585DD0097777E /* RealmModel.swift */,
-				F92913B82C5E34BB005A7858 /* PermissionClass.swift */,
-				F962DA482C7EE89B00972C81 /* APIModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -265,9 +252,6 @@
 		18B20B472BB6E21D00827796 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				18B20B4B2BB6E25B00827796 /* ApiViewModel.swift */,
-				18B20B492BB6E24A00827796 /* SDKViewModel.swift */,
-				F97610A32C89C75D005EA3D5 /* WalletViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -296,8 +280,6 @@
 		F92914062C60B683005A7858 /* TollValidation */ = {
 			isa = PBXGroup;
 			children = (
-				F9C54A612C5BB25E00670D83 /* CocoaMqtt.swift */,
-				18B20B012BB6B90400827796 /* BeaconRanging.swift */,
 			);
 			name = TollValidation;
 			sourceTree = "<group>";
@@ -305,7 +287,6 @@
 		F929140A2C60B70D005A7858 /* MainProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				180C24C92BB302B600323E93 /* WelcomePage.swift */,
 			);
 			path = MainProtocols;
 			sourceTree = "<group>";
@@ -313,8 +294,6 @@
 		F929140B2C60B760005A7858 /* MainClasses */ = {
 			isa = PBXGroup;
 			children = (
-				180C24C42BB302B500323E93 /* Presenter.swift */,
-				180C24CA2BB302B600323E93 /* Customdialog.swift */,
 			);
 			path = MainClasses;
 			sourceTree = "<group>";
@@ -322,7 +301,6 @@
 		F929140C2C60B798005A7858 /* UserNotification */ = {
 			isa = PBXGroup;
 			children = (
-				1897E28C2BC518B30008C110 /* TriggerNotification.swift */,
 			);
 			name = UserNotification;
 			path = MainProtocols;
@@ -331,11 +309,6 @@
 		F95D1B192C86D61300F4DC9D /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				F9ACCF572C898E2F00E63D5D /* AddWalletViewController.swift */,
-				F9ACCF592C898FB100E63D5D /* WalletProtocal.swift */,
-				F9ACCF5B2C89908600E63D5D /* ZIGWalletMethod.swift */,
-				F9ACCF612C89A57300E63D5D /* AddWalletCollectionViewCell.swift */,
-				F97610CD2C8D3F08005EA3D5 /* ReduceWalletAmount.swift */,
 			);
 			name = Wallet;
 			sourceTree = "<group>";
@@ -343,6 +316,33 @@
 		F95D1B1A2C86D63600F4DC9D /* TicketValidation */ = {
 			isa = PBXGroup;
 			children = (
+				18B20B492BB6E24A00827796 /* SDKViewModel.swift */,
+				F97610A32C89C75D005EA3D5 /* WalletViewModel.swift */,
+				180C24C72BB302B500323E93 /* Model.swift */,
+				1883B5EF2BB585DD0097777E /* RealmModel.swift */,
+				F92914072C60B69D005A7858 /* TollModel.swift */,
+				F92913B82C5E34BB005A7858 /* PermissionClass.swift */,
+				180C24C82BB302B600323E93 /* OnboardingViewController.swift */,
+				180C24CB2BB302B600323E93 /* StopViewController.swift */,
+				F962DA482C7EE89B00972C81 /* APIModel.swift */,
+				18B20B4B2BB6E25B00827796 /* ApiViewModel.swift */,
+				1880B5B52BB7BD8C00C1C6BF /* SOSViewController.swift */,
+				1880B60B2BB80AC300C1C6BF /* QRViewController.swift */,
+				18E6115A2BBBE77A00638BD5 /* IllegalViewController.swift */,
+				F9598CF52C6F2A6D00B13D19 /* NeedPermissionViewController.swift */,
+				F9C54ABC2C5CE17600670D83 /* PermissionTableViewCell.swift */,
+				F9CC60352C75B69600907F22 /* NotificationCell.swift */,
+				180C24C42BB302B500323E93 /* Presenter.swift */,
+				F9C54A612C5BB25E00670D83 /* CocoaMqtt.swift */,
+				180C24CA2BB302B600323E93 /* Customdialog.swift */,
+				F9ACCF572C898E2F00E63D5D /* AddWalletViewController.swift */,
+				18B20B012BB6B90400827796 /* BeaconRanging.swift */,
+				F9ACCF592C898FB100E63D5D /* WalletProtocal.swift */,
+				F9ACCF612C89A57300E63D5D /* AddWalletCollectionViewCell.swift */,
+				F9ACCF5B2C89908600E63D5D /* ZIGWalletMethod.swift */,
+				180C24C92BB302B600323E93 /* WelcomePage.swift */,
+				F97610CD2C8D3F08005EA3D5 /* ReduceWalletAmount.swift */,
+				1897E28C2BC518B30008C110 /* TriggerNotification.swift */,
 				18B20B472BB6E21D00827796 /* ViewModel */,
 				187F53FB2BB3DD1F002CF7F9 /* Models */,
 				187F53F82BB3DCA1002CF7F9 /* Controller */,
